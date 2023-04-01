@@ -1,0 +1,57 @@
+﻿header {
+    background-color: black;
+    margin:0;
+}
+
+nav {
+    white-space:nowrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 20px;
+}
+
+.donate-button {
+    background-color: rgba(141, 30, 30, 1);
+    border-radius: 5px;
+    font-size: 24px;
+    font-family: 'Javanese Text';
+    padding: 0px 45px;
+}
+
+.home-button {
+    margin-left:37px;
+    justify-content: space-between;
+    font-family: Inknut Antiqua;
+    font-size: 36px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    margin-top: 10px;
+    display: flex;
+    align-items: baseline;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-family: Javanese Text;
+    font-size: 32px;
+}
+
+nav .nav-right a{
+    color: white;
+    text-decoration: none;
+}
+nav .nav-left a {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dark Brotherhood @ViewData["Title"]</title>
+  
+    <link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/HelloASP.styles.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Javanese+Text&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="@Url.Action("Index", "Home")" class="nav-button"><span class="home-button">Dark Brotherhood</span></a>
+            </div>
+            <div class="nav-right">
+                <a href="@Url.Action("About", "Home")" class="nav-button">About</a>
+                <a href="#" class="nav-button">Members</a>
+                <a href="#" class="nav-button">Gallery</a>
+                <a href="#" class="nav-button"><span class="donate-button">DONATE</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
