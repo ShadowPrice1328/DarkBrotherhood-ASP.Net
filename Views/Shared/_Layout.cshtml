@@ -7,6 +7,7 @@
     <title>Dark Brotherhood @ViewData["Title"]</title>
   
     <link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/HelloASP.styles.css" asp-append-version="true" />
     <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua&display=swap" rel="stylesheet">
@@ -17,6 +18,7 @@
     <header>
         <nav>
             <div class="nav-left">
+                <img src="./images/logo.png"/>
                 <a href="@Url.Action("Index", "Home")" class="nav-button"><span class="home-button">Dark Brotherhood</span></a>
             </div>
             <div class="nav-right">
@@ -35,7 +37,22 @@
     </div>
 
     <footer>
+        <div>
+            <p class="main-text">Join Us on Social Media</p>
+            <div class="socials">
+                <img src="./images/twitter.png" />
+                <img src="./images/facebook.png" />
+                <img src="./images/youtube.png" />
+                <img src="./images/instagram.png" />
+            </div>
+            <p class="credits">© Dark Brotherhood @DateTime.Now.Year</p>
 
+            <div class="block-pages">
+                <a href="#">About</a>
+                <img src="./images/Ellipse 2.png" />
+                <a href="#">Donate</a>
+            </div>
+        </div>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

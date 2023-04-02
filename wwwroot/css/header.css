@@ -41,7 +41,6 @@ nav {
 .nav-button {
     text-decoration: none;
     color: white;
-    font-size: 16px;
     padding: 10px 20px;
     font-family: Javanese Text;
     font-size: 32px;
@@ -54,4 +53,5 @@ nav .nav-right a{
 nav .nav-left a {
     color: white;
     text-decoration: none;
+    margin-left: -50px;
 }
