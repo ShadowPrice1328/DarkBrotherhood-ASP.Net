@@ -18,7 +18,7 @@
     <header>
         <nav>
             <div class="nav-left">
-                <img src="./images/logo.png"/>
+                <img src="~/images/logo.png"/>
                 <a href="@Url.Action("Index", "Home")" class="nav-button"><span class="home-button">Dark Brotherhood</span></a>
             </div>
             <div class="nav-right">
@@ -40,17 +40,17 @@
         <div>
             <p class="main-text">Join Us on Social Media</p>
             <div class="socials">
-                <img src="./images/twitter.png" />
-                <img src="./images/facebook.png" />
-                <img src="./images/youtube.png" />
-                <img src="./images/instagram.png" />
+                <img src="~/images/twitter.png" />
+                <img src="~/images/facebook.png" />
+                <img src="~/images/youtube.png" />
+                <img src="~/images/instagram.png" />
             </div>
             <p class="credits">© Dark Brotherhood @DateTime.Now.Year</p>
 
             <div class="block-pages">
-                <a href="#">About</a>
-                <img src="./images/Ellipse 2.png" />
-                <a href="#">Donate</a>
+                <a href="@Url.Action("About", "Home")">About</a>
+                <img src="~/images/Ellipse 2.png" />
+                <a href="@Url.Action("Donate", "Home")">Donate</a>
             </div>
         </div>
     </footer>
