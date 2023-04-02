@@ -32,6 +32,9 @@
     margin-inline: 20px;
 }
 
+.socials a {
+    text-decoration: none;
+}
 .block-pages {
     background-color: black;
     position: fixed;
