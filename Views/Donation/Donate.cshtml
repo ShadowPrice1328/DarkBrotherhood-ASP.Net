@@ -1,0 +1,13 @@
+﻿@{
+	ViewData["Title"] = "- Donation";
+}
+
+<link rel="stylesheet" href="~/css/donate.css" asp-append-version="true" />
+
+<div class="donation">
+	<form method="post" action="@Url.Action("ConfirmDonation", "Donation")">
+		<p>Write here what will you give us!</p>
+		<textarea name="gift"></textarea> <br />
+		<input type="submit" value="Confirm" name="confirm" />
+	</form>
+</div>

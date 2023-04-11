@@ -31,7 +31,7 @@ namespace HelloASP.Controllers
         }
 		public IActionResult Donate()
 		{
-			return View();
+			return RedirectToAction("Donate", "Donation");
 		}
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
