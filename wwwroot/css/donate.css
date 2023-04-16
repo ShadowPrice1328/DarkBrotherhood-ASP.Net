@@ -1,4 +1,8 @@
-﻿.donation {
+﻿body {
+    height: 1192px;
+}
+
+.donation {
     margin: 30px auto;
     background-color: whitesmoke;
     border: 1px solid lightgray;
