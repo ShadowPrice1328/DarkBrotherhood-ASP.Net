@@ -1,6 +1,7 @@
 ﻿header {
     background-color: black;
-    margin:0;
+    margin: 0;
+    border-bottom: 2px solid white;
 }
 
 nav {
@@ -17,6 +18,9 @@ nav {
     border-radius: 5px;
     font-size: 24px;
     font-family: 'Javanese Text';
+    height: 50px;
+    width: 192px;
+    line-height: 160%;
     padding: 0px 45px;
 }
 

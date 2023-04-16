@@ -4,10 +4,19 @@
 
 <link rel="stylesheet" href="~/css/donate.css" asp-append-version="true" />
 
-<div class="donation">
+<div class="content">
+	<div class="main-text-donation">
+		Donation to the Dark Brotherhood
+	</div>
+
 	<form method="post" action="@Url.Action("ConfirmDonation", "Donation")">
-		<p>Write here what will you give us!</p>
 		<textarea name="gift"></textarea> <br />
-		<input type="submit" value="Confirm" name="confirm" />
+
+		<div class="desc-donation">
+			Write what will you give to us and than leave it near the Abandoned Shack (located in a frosty, 
+			swamp-like area of Hjaalmarch along the northern coastline. It is southeast of Solitude and northeast of Morthal).
+		</div>
+
+		<input class="confirm-donation" type="submit" value="Confirm" name="confirm" />
 	</form>
 </div>
