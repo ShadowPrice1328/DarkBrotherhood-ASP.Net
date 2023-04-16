@@ -4,11 +4,12 @@
 	{
         public void SaveDonation(string gift)
         {
-            string filePath = "AppData/donations.txt";
-            using (StreamWriter writer = new(filePath, true))
+            if (gift != "")
             {
-                writer.WriteLine(gift);
-            }
+				string filePath = "AppData/donations.txt";
+				using StreamWriter writer = new(filePath, true);
+				writer.WriteLine(gift);
+			}
         }
     }
 }
