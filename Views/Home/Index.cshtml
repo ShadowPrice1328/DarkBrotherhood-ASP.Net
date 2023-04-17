@@ -1,9 +1,17 @@
-﻿<style>
-    body {
-        height: 2010px;
-    }
-</style>
+﻿<link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
 
-<div>
-    <p>Якийсь сайт</p>
+<div class="content">
+    <div class="block">
+        <img src="~/images/logo_main.png" style="float:right; height: 110%" />
+
+        <div class="main-block">
+            <h1>The Dark Brotherhood</h1>
+            <h3>Nigh. Silence. Rules.</h3>
+
+            <div class="button-container">
+                <button class="about" onclick="location.href='@Url.Action("About","Home")'">ABOUT</button>
+                <button class="donate" onclick="location.href='@Url.Action("Donate","Donation")'">DONATE</button>
+            </div>
+        </div>
+    </div>
 </div>

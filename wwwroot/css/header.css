@@ -1,7 +1,7 @@
 ﻿header {
-    background-color: black;
+    background: linear-gradient(black, rgb(10,10,10));
+    border-bottom: 1px solid white;
     margin: 0;
-    border-bottom: 2px solid white;
 }
 
 nav {
